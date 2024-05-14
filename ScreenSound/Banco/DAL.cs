@@ -40,6 +40,4 @@ internal class DAL<T> where T : class
         return Context.Set<T>().FirstOrDefault(condicao);
     }
 
-
-
 }
